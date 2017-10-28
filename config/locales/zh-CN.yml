@@ -1,0 +1,35 @@
+zh-CN:
+  time:
+    formats:
+      long: "%Y-%m-%d %H:%M:%S"
+  active_admin:
+    filters:
+      predicates:
+        from: 始
+        to: 至
+  activerecord: 
+    attributes: 
+      admin_user: 
+        email: 邮箱
+        password: 密码
+        password_confirmation: 确认密码
+        current_sign_in_at: 上次登录于
+        sign_in_count: 登录次数
+        created_at: 创建于 
+      user: 
+        email: 邮箱
+        first_name: 名
+        gender: 性别
+        last_name: 姓
+        nick_name: 昵称
+        home_address: 家庭住址
+        mailing_address: 邮寄地址
+    models: 
+      admin_user: 管理员
+      user: 用户
+  user:
+    name_or_email: 姓名或邮箱
+    gender:
+      male: 男
+      female: 女
+  company_name: 宇宙无敌。。。

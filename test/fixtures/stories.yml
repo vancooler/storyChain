@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  deep: 1
+  body: MyText
+  user_id: 1
+  keyword: MyString
+  children_keyword: MyString
+  public: false
+
+two:
+  deep: 1
+  body: MyText
+  user_id: 1
+  keyword: MyString
+  children_keyword: MyString
+  public: false

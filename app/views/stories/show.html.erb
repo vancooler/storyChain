@@ -1,0 +1,14 @@
+<p>
+  <strong>Keyword:</strong>
+  <%= @story.keyword %>
+</p>
+
+<h4>Story</h4>
+
+<div class="body">
+  <%= raw(
+    @story.path.map do |story| 
+      "<p class='chapter'>#{story.body}</p>"
+    end.join
+    ) %>
+</div>

@@ -45,6 +45,9 @@ gem 'pg'
 gem 'countries'
 gem 'geocoder'
 
+gem 'ancestry'
+gem 'literate_randomizer'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0.0'
 # Use Uglifier as compressor for JavaScript assets
